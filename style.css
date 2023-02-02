@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poiret One', cursive;
+    overflow: hidden;
+
+    background: linear-gradient(45deg, #CCFBFF, #EF96C5);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.clock {
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.clock h2 {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    font-size: 4rem;
+    margin: 0 10px;
+}
