@@ -15,18 +15,22 @@ body {
 }
 
 .clock {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     width: fit-content;
-    margin: auto;
     padding: 15px;
 
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 .clock h2 {
-    display: inline-block;
     font-family: inherit;
     font-weight: bold;
     color: #fff;
     font-size: 4rem;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 auto;
+    user-select: none;
+
 }
